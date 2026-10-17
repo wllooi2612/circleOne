@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA0200642C1B80000000000F /* circleOneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0100642C1B80000000000F /* circleOneApp.swift */; };
+		AA0200652C1B80000000000F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0100652C1B80000000000F /* ContentView.swift */; };
+		AA0200662C1B80000000000F /* LeaveType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0100662C1B80000000000F /* LeaveType.swift */; };
+		AA0200672C1B80000000000F /* LeaveBalance.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0100672C1B80000000000F /* LeaveBalance.swift */; };
+		AA0200682C1B80000000000F /* LeaveRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0100682C1B80000000000F /* LeaveRequest.swift */; };
+		AA0200692C1B80000000000F /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0100692C1B80000000000F /* UserProfile.swift */; };
+		AA02006A2C1B80000000000F /* LeaveStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA01006A2C1B80000000000F /* LeaveStore.swift */; };
+		AA02006B2C1B80000000000F /* ColorTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA01006B2C1B80000000000F /* ColorTheme.swift */; };
+		AA02006C2C1B80000000000F /* StatusBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA01006C2C1B80000000000F /* StatusBadge.swift */; };
+		AA02006D2C1B80000000000F /* GlassCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA01006D2C1B80000000000F /* GlassCard.swift */; };
+		AA02006E2C1B80000000000F /* StatMetricCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA01006E2C1B80000000000F /* StatMetricCard.swift */; };
+		AA02006F2C1B80000000000F /* BalanceRingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA01006F2C1B80000000000F /* BalanceRingView.swift */; };
+		AA0200702C1B80000000000F /* LeaveBalanceCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0100702C1B80000000000F /* LeaveBalanceCard.swift */; };
+		AA0200712C1B80000000000F /* UpcomingLeavesCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0100712C1B80000000000F /* UpcomingLeavesCard.swift */; };
+		AA0200722C1B80000000000F /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0100722C1B80000000000F /* DashboardView.swift */; };
+		AA0200732C1B80000000000F /* LeaveTypePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0100732C1B80000000000F /* LeaveTypePickerView.swift */; };
+		AA0200742C1B80000000000F /* DocumentAttachmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0100742C1B80000000000F /* DocumentAttachmentView.swift */; };
+		AA0200752C1B80000000000F /* ApplyLeaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0100752C1B80000000000F /* ApplyLeaveView.swift */; };
+		AA0200762C1B80000000000F /* LeaveDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0100762C1B80000000000F /* LeaveDetailView.swift */; };
+		AA0200772C1B80000000000F /* LeaveHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0100772C1B80000000000F /* LeaveHistoryView.swift */; };
+		AA0200782C1B80000000000F /* ManagerApprovalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0100782C1B80000000000F /* ManagerApprovalView.swift */; };
+		AA0200792C1B80000000000F /* TeamCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0100792C1B80000000000F /* TeamCalendarView.swift */; };
+		AA02007A2C1B80000000000F /* LeavePolicyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA01007A2C1B80000000000F /* LeavePolicyView.swift */; };
+		AA02007B2C1B80000000000F /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA01007B2C1B80000000000F /* ProfileView.swift */; };
+		AA0300022C1B800000000002 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA0300012C1B800000000001 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA01000E2C1B80000000000E /* circleOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = circleOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA0100642C1B80000000000F /* circleOneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = circleOneApp.swift; sourceTree = "<group>"; };
+		AA0100652C1B80000000000F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AA0100662C1B80000000000F /* LeaveType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaveType.swift; sourceTree = "<group>"; };
+		AA0100672C1B80000000000F /* LeaveBalance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaveBalance.swift; sourceTree = "<group>"; };
+		AA0100682C1B80000000000F /* LeaveRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaveRequest.swift; sourceTree = "<group>"; };
+		AA0100692C1B80000000000F /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		AA01006A2C1B80000000000F /* LeaveStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaveStore.swift; sourceTree = "<group>"; };
+		AA01006B2C1B80000000000F /* ColorTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTheme.swift; sourceTree = "<group>"; };
+		AA01006C2C1B80000000000F /* StatusBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBadge.swift; sourceTree = "<group>"; };
+		AA01006D2C1B80000000000F /* GlassCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassCard.swift; sourceTree = "<group>"; };
+		AA01006E2C1B80000000000F /* StatMetricCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatMetricCard.swift; sourceTree = "<group>"; };
+		AA01006F2C1B80000000000F /* BalanceRingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceRingView.swift; sourceTree = "<group>"; };
+		AA0100702C1B80000000000F /* LeaveBalanceCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaveBalanceCard.swift; sourceTree = "<group>"; };
+		AA0100712C1B80000000000F /* UpcomingLeavesCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingLeavesCard.swift; sourceTree = "<group>"; };
+		AA0100722C1B80000000000F /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		AA0100732C1B80000000000F /* LeaveTypePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaveTypePickerView.swift; sourceTree = "<group>"; };
+		AA0100742C1B80000000000F /* DocumentAttachmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentAttachmentView.swift; sourceTree = "<group>"; };
+		AA0100752C1B80000000000F /* ApplyLeaveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplyLeaveView.swift; sourceTree = "<group>"; };
+		AA0100762C1B80000000000F /* LeaveDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaveDetailView.swift; sourceTree = "<group>"; };
+		AA0100772C1B80000000000F /* LeaveHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaveHistoryView.swift; sourceTree = "<group>"; };
+		AA0100782C1B80000000000F /* ManagerApprovalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerApprovalView.swift; sourceTree = "<group>"; };
+		AA0100792C1B80000000000F /* TeamCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamCalendarView.swift; sourceTree = "<group>"; };
+		AA01007A2C1B80000000000F /* LeavePolicyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeavePolicyView.swift; sourceTree = "<group>"; };
+		AA01007B2C1B80000000000F /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		AA0300012C1B800000000001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA0300032C1B800000000003 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA01000B2C1B80000000000B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA01000C2C1B80000000000C = {
+			isa = PBXGroup;
+			children = (
+				AA04000D2C1B80000000000D /* circleOne */,
+				AA01000D2C1B80000000000D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA01000D2C1B80000000000D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA01000E2C1B80000000000E /* circleOne.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA0400012C1B800000000001 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				AA0100642C1B80000000000F /* circleOneApp.swift */,
+				AA0100652C1B80000000000F /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		AA0400022C1B800000000002 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AA0100662C1B80000000000F /* LeaveType.swift */,
+				AA0100672C1B80000000000F /* LeaveBalance.swift */,
+				AA0100682C1B80000000000F /* LeaveRequest.swift */,
+				AA0100692C1B80000000000F /* UserProfile.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AA0400032C1B800000000003 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AA01006A2C1B80000000000F /* LeaveStore.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		AA0400042C1B800000000004 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AA0400062C1B800000000006 /* Dashboard */,
+				AA0400072C1B800000000007 /* ApplyLeave */,
+				AA0400082C1B800000000008 /* History */,
+				AA0400092C1B800000000009 /* Manager */,
+				AA04000A2C1B80000000000A /* TeamCalendar */,
+				AA04000B2C1B80000000000B /* Profile */,
+				AA0400052C1B800000000005 /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AA0400052C1B800000000005 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				AA01006B2C1B80000000000F /* ColorTheme.swift */,
+				AA01006C2C1B80000000000F /* StatusBadge.swift */,
+				AA01006D2C1B80000000000F /* GlassCard.swift */,
+				AA01006E2C1B80000000000F /* StatMetricCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		AA0400062C1B800000000006 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				AA01006F2C1B80000000000F /* BalanceRingView.swift */,
+				AA0100702C1B80000000000F /* LeaveBalanceCard.swift */,
+				AA0100712C1B80000000000F /* UpcomingLeavesCard.swift */,
+				AA0100722C1B80000000000F /* DashboardView.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		AA0400072C1B800000000007 /* ApplyLeave */ = {
+			isa = PBXGroup;
+			children = (
+				AA0100732C1B80000000000F /* LeaveTypePickerView.swift */,
+				AA0100742C1B80000000000F /* DocumentAttachmentView.swift */,
+				AA0100752C1B80000000000F /* ApplyLeaveView.swift */,
+			);
+			path = ApplyLeave;
+			sourceTree = "<group>";
+		};
+		AA0400082C1B800000000008 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				AA0100762C1B80000000000F /* LeaveDetailView.swift */,
+				AA0100772C1B80000000000F /* LeaveHistoryView.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		AA0400092C1B800000000009 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				AA0100782C1B80000000000F /* ManagerApprovalView.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		AA04000A2C1B80000000000A /* TeamCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				AA0100792C1B80000000000F /* TeamCalendarView.swift */,
+			);
+			path = TeamCalendar;
+			sourceTree = "<group>";
+		};
+		AA04000B2C1B80000000000B /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				AA01007A2C1B80000000000F /* LeavePolicyView.swift */,
+				AA01007B2C1B80000000000F /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		AA04000C2C1B80000000000C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AA0300012C1B800000000001 /* Assets.xcassets */,
+				AA0300032C1B800000000003 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AA04000D2C1B80000000000D /* circleOne */ = {
+			isa = PBXGroup;
+			children = (
+				AA0400012C1B800000000001 /* App */,
+				AA0400022C1B800000000002 /* Models */,
+				AA0400032C1B800000000003 /* ViewModels */,
+				AA0400042C1B800000000004 /* Views */,
+				AA04000C2C1B80000000000C /* Resources */,
+			);
+			path = circleOne;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA0100022C1B800000000002 /* circleOne */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA0100042C1B800000000004 /* Build configuration list for PBXNativeTarget "circleOne" */;
+			buildPhases = (
+				AA0100092C1B800000000009 /* Sources */,
+				AA01000B2C1B80000000000B /* Frameworks */,
+				AA01000A2C1B80000000000A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = circleOne;
+			productName = circleOne;
+			productReference = AA01000E2C1B80000000000E /* circleOne.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA0100012C1B800000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					AA0100022C1B800000000002 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = AA0100032C1B800000000003 /* Build configuration list for PBXProject "circleOne" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA01000C2C1B80000000000C;
+			productRefGroup = AA01000D2C1B80000000000D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA0100022C1B800000000002 /* circleOne */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA01000A2C1B80000000000A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA0300022C1B800000000002 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA0100092C1B800000000009 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA0200642C1B80000000000F /* circleOneApp.swift in Sources */,
+				AA0200652C1B80000000000F /* ContentView.swift in Sources */,
+				AA0200662C1B80000000000F /* LeaveType.swift in Sources */,
+				AA0200672C1B80000000000F /* LeaveBalance.swift in Sources */,
+				AA0200682C1B80000000000F /* LeaveRequest.swift in Sources */,
+				AA0200692C1B80000000000F /* UserProfile.swift in Sources */,
+				AA02006A2C1B80000000000F /* LeaveStore.swift in Sources */,
+				AA02006B2C1B80000000000F /* ColorTheme.swift in Sources */,
+				AA02006C2C1B80000000000F /* StatusBadge.swift in Sources */,
+				AA02006D2C1B80000000000F /* GlassCard.swift in Sources */,
+				AA02006E2C1B80000000000F /* StatMetricCard.swift in Sources */,
+				AA02006F2C1B80000000000F /* BalanceRingView.swift in Sources */,
+				AA0200702C1B80000000000F /* LeaveBalanceCard.swift in Sources */,
+				AA0200712C1B80000000000F /* UpcomingLeavesCard.swift in Sources */,
+				AA0200722C1B80000000000F /* DashboardView.swift in Sources */,
+				AA0200732C1B80000000000F /* LeaveTypePickerView.swift in Sources */,
+				AA0200742C1B80000000000F /* DocumentAttachmentView.swift in Sources */,
+				AA0200752C1B80000000000F /* ApplyLeaveView.swift in Sources */,
+				AA0200762C1B80000000000F /* LeaveDetailView.swift in Sources */,
+				AA0200772C1B80000000000F /* LeaveHistoryView.swift in Sources */,
+				AA0200782C1B80000000000F /* ManagerApprovalView.swift in Sources */,
+				AA0200792C1B80000000000F /* TeamCalendarView.swift in Sources */,
+				AA02007A2C1B80000000000F /* LeavePolicyView.swift in Sources */,
+				AA02007B2C1B80000000000F /* ProfileView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AA0100052C1B800000000005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA0100062C1B800000000006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		AA0100072C1B800000000007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"circleOne/Preview Content\"";
+				DEVELOPMENT_TEAM = 97Q5TUH38Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = circleOne/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wailunglooi.circleOne;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA0100082C1B800000000008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"circleOne/Preview Content\"";
+				DEVELOPMENT_TEAM = 97Q5TUH38Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = circleOne/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wailunglooi.circleOne;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA0100032C1B800000000003 /* Build configuration list for PBXProject "circleOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0100052C1B800000000005 /* Debug */,
+				AA0100062C1B800000000006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA0100042C1B800000000004 /* Build configuration list for PBXNativeTarget "circleOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0100072C1B800000000007 /* Debug */,
+				AA0100082C1B800000000008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA0100012C1B800000000001 /* Project object */;
+}
