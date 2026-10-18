@@ -44,7 +44,7 @@ app.get('/api/health', async (req, res) => {
 app.get('/', (req, res) => {
     res.json({
         name: 'circleOne 🌿 Leave Application & Management Web API',
-        version: '1.0.0',
+        version: '1.0.1',
         endpoints: {
             health: 'GET /api/health',
             userProfile: 'GET /api/users/profile?userId=EMP-9402',
