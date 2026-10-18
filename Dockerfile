@@ -11,7 +11,5 @@ RUN npm install --production
 # Copy backend source code
 COPY backend/ ./
 
-ENV PORT=3000
-EXPOSE 3000
-
+# Do not hardcode PORT so Railway's dynamic PORT environment variable is used
 CMD ["node", "server.js"]
