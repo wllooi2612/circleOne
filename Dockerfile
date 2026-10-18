@@ -11,5 +11,9 @@ RUN npm install --production
 # Copy backend source code
 COPY backend/ ./
 
-# Do not hardcode PORT so Railway's dynamic PORT environment variable is used
+# Create symlink so commands like `cd backend && ...` succeed seamlessly
+RUN ln -s /app /app/backend
+
+# Run server
 CMD ["node", "server.js"]
+
