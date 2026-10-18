@@ -65,8 +65,18 @@ app.use((req, res) => {
     res.status(404).json({ error: 'Endpoint not found', path: req.originalUrl });
 });
 
+// Process exception safety
+process.on('uncaughtException', (err) => {
+    console.error('💥 Uncaught Exception:', err);
+});
+
+process.on('unhandledRejection', (reason, promise) => {
+    console.error('💥 Unhandled Rejection at:', promise, 'reason:', reason);
+});
+
 // Start Server
 app.listen(PORT, '0.0.0.0', () => {
     console.log(`🚀 circleOne Web API is running on http://localhost:${PORT}`);
     console.log(`🌿 Health Check: http://localhost:${PORT}/api/health`);
 });
+
