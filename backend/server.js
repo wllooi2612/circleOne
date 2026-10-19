@@ -74,9 +74,25 @@ process.on('unhandledRejection', (reason, promise) => {
     console.error('💥 Unhandled Rejection at:', promise, 'reason:', reason);
 });
 
-// Start Server
-app.listen(PORT, '0.0.0.0', () => {
-    console.log(`🚀 circleOne Web API is running on http://localhost:${PORT}`);
-    console.log(`🌿 Health Check: http://localhost:${PORT}/api/health`);
+// Start Server on all potential Railway proxy target ports
+const http = require('http');
+const primaryPort = parseInt(process.env.PORT || '8080', 10);
+const targetPorts = Array.from(new Set([primaryPort, 8080, 3000]));
+
+targetPorts.forEach((port) => {
+    try {
+        const s = http.createServer(app);
+        s.listen(port, '0.0.0.0', () => {
+            console.log(`🚀 circleOne Web API is listening on http://0.0.0.0:${port}`);
+            console.log(`🌿 Health Check: http://0.0.0.0:${port}/api/health`);
+        });
+        s.on('error', (err) => {
+            if (err.code !== 'EADDRINUSE') {
+                console.warn(`Port ${port} warning:`, err.message);
+            }
+        });
+    } catch (e) {
+        console.warn(`Failed to bind to port ${port}:`, e.message);
+    }
 });
 
